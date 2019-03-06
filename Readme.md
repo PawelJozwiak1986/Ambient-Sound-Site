@@ -1,5 +1,1 @@
-Portfolio available at :
-
-https://paweljozwiak1986.github.io
-
-:)
+Site with relaxing sounds of nature :)
