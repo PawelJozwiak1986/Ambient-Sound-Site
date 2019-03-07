@@ -1,6 +1,7 @@
 body{
-  background: url(../assets/3.jpg);
+  background: url(../assets/8.jpg);
   background-size: cover ;
+  font-family: 'Marcellus SC', serif;
 
 }
 .main__container{
@@ -11,6 +12,8 @@ body{
   align-items: flex-start;
 }
 .player__block{
+  opacity: 0.8;
+  position: relative;
   height: 200px;
   width: 140px;
   margin-top: 110px;
@@ -20,11 +23,26 @@ body{
   align-items: flex-start;
 }
 .play-pause__btn{
-  margin-top: 80px;
+  opacity: 1.0;
+  margin-top: 30px;
   height: 60px;
   width: 60px;
   padding-bottom: 25px;
 }
-#volume__slider{
-  // align-items: flex-end;
+.site__describe--h1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 56px;
+  color: whitesmoke;
+  font-family: 'marcellus_scregular';
+  font-weight: normal;
+}
+.site__describe--pargaph{
+  top: 310px;
+  position: absolute;
+  color: whitesmoke;
+  width: 237px;
+  font-size: 20px;
+  font-weight: 400;
 }
