@@ -1,5 +1,5 @@
 body{
-  background: url(../assets/1.jpg);
+  background: url(../assets/3.jpg);
   background-size: cover ;
 
 }
@@ -12,21 +12,19 @@ body{
 
 }
 .player__block{
-  height: 400px;
-  width: 300px;
+  height: 200px;
+  width: 140px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  
 }
 .play-pause__btn{
   margin-top: 80px;
   height: 60px;
   width: 60px;
+  padding-bottom: 25px;
 }
-.pause__btn{
-  margin-top: 80px;
-  height: 60px;
-  width: 60px;
-  background-color: red;
+#volume__slider{
+  // align-items: flex-end;
 }
