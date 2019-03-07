@@ -8,12 +8,12 @@ body{
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center
-
+  align-items: flex-start;
 }
 .player__block{
   height: 200px;
   width: 140px;
+  margin-top: 110px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
