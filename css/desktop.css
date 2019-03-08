@@ -1,5 +1,5 @@
 body {
-  background: url(../assets/8.jpg);
+  background: url(../assets/3.jpg);
   background-size: cover;
   font-family: 'Marcellus SC', serif; }
 
@@ -24,8 +24,8 @@ body {
 .play-pause__btn {
   opacity: 1.0;
   margin-top: 30px;
-  height: 60px;
-  width: 60px;
+  height: 100px;
+  width: 100px;
   padding-bottom: 25px; }
 
 .site__describe--h1 {
@@ -38,9 +38,15 @@ body {
   font-weight: normal; }
 
 .site__describe--pargaph {
-  top: 310px;
+  top: 350px;
   position: absolute;
   color: whitesmoke;
   width: 237px;
   font-size: 20px;
   font-weight: 400; }
+
+.github__link {
+  opacity: 2,0;
+  height: 30px;
+  width: 30px;
+  margin-top: 40px; }
