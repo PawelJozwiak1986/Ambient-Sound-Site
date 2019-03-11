@@ -28,8 +28,7 @@ body {
   margin-top: 120px; }
 
 .site__describe--h1 {
-  margin-top: 50px;
-  font-size: 56px;
+  margin-top: 50px auto 0;
   color: whitesmoke;
   font-family: 'marcellus_scregular';
   font-weight: normal;
