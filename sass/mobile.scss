@@ -1,13 +1,13 @@
 body{
-  background: url(../assets/3.jpg) center;
+  background: url(../assets/3.jpg) center no-repeat;
   background-size: cover ;
   font-family: 'Marcellus SC', serif;
 }
 .main__container{
   height: 100vh;
-  width: 100%;
   display: flex;
   justify-content: center;
+
 }
 .player__block{
   display: flex;
@@ -29,23 +29,21 @@ body{
   margin-top: 120px;
 }
 #volume__slider{
-  padding-top:50px;
+ 
   height: 120px;
 }
 .site__describe--h1{
-  position: absolute; 
-  display: flex;
-  justify-content: center;
+  margin-top:50px;
   font-size: 56px;
   color: whitesmoke;
   font-family: 'marcellus_scregular';
   font-weight: normal;
   text-align: center;
-  width: 50%;
+  // width: 50%;
 }
 .site__describe--pargaph{
   position: absolute;
-  
+
   top: 300px;
   margin-top: 125px;
   margin-bottom: 0px;
