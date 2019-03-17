@@ -17,17 +17,9 @@ let setvolume =() =>{
   audio.volume = volume__slider.value / 100;
 }
 
-window.setInterval(changeImage, 5000);
-
-
-function changeImage (){
-  
-
-};
-
 
 function randombg(){
-  var random= Math.floor(Math.random() * 6) + 0;
+  var random= Math.floor(Math.random() * 17) + 0;
   var bigSize = ["url('./assets/1.jpg')",
                  "url('./assets/2.jpg')",
                  "url('./assets/3.jpg')",

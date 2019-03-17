@@ -11,8 +11,8 @@ body{
 	  right: 0;
 	  bottom: 0;
 	  left: 0;
-	  background-image: linear-gradient(to bottom,#b3b6b9,black);
-	  opacity: .8; 
+	  // background-image: linear-gradient(to bottom,#f0f1f3,black);
+	  opacity: .5; 
   }
 }
 
@@ -63,4 +63,23 @@ body{
   height: 30px;
   width: 30px;
   margin-top: 40px;
+}
+.shadow{
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  background-image: linear-gradient(to bottom, transparent,black);
+  background: transparent;
+  top: 618px;
+  &:before {
+    content: '';
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+    left: 0;
+    /////////////////////////////////////
+    background: linear-gradient(to bottom,transparent, black ,;
+	  opacity: .; 
+  }
 }
