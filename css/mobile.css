@@ -1,7 +1,12 @@
 body {
   background: url(../assets/3.jpg) center no-repeat;
   background-size: cover;
-  font-family: 'Marcellus SC', serif; }
+  font-family: 'Marcellus SC', serif;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease; }
+
+body:hover {
+  -webkit-filter: blur(5px); }
 
 .main__container {
   height: 100vh;
@@ -28,7 +33,6 @@ body {
   margin-top: 120px; }
 
 .site__describe--h1 {
-  margin-top: 50px auto 0;
   color: whitesmoke;
   font-family: 'marcellus_scregular';
   font-weight: normal;
