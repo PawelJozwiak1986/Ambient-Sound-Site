@@ -2,6 +2,7 @@ body{
   background: url(../assets/3.jpg) center no-repeat;
   background-size: cover ;
   font-family: 'Marcellus SC', serif;
+  height:100%;
 }
 body:hover {
   -webkit-filter: blur(5px);
@@ -32,17 +33,13 @@ body:hover {
   margin-top: 120px;
 }
 .site__describe--h1{
-  // margin-top: q50px auto 0;
-  // font-size: 56px;
   color: whitesmoke;
   font-family: 'marcellus_scregular';
   font-weight: normal;
-  text-align: center;
-  
+  text-align: center; 
 }
 .site__describe--pargaph{
   position: absolute;
-
   top: 300px;
   margin-top: 125px;
   margin-bottom: 0px;
@@ -58,4 +55,13 @@ body:hover {
   width: 30px;
   text-align: center;
   margin-top: 5px;
+}
+.copyright{
+  height: 30px;
+  top:500px;
+  width:172%;
+  margin-top: 60px;
+  position: absolute;
+  opacity: 1.0;
+  color:white;
 }

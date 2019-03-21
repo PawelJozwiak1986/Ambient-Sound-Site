@@ -18,6 +18,8 @@ let setvolume =() =>{
 }
 
 
+
+
 function randombg(){
   var random= Math.floor(Math.random() * 17) + 0;
   var bigSize = ["url('./assets/1.jpg')",
@@ -38,7 +40,8 @@ function randombg(){
                  "url('./assets/16.jpg')",                
                  "url('./assets/17.jpg')",
                 ];
-document.body.style.backgroundImage=bigSize[random];
-}
+  document.body.style.backgroundImage=bigSize[random];
+
+};
 
 window.setInterval(randombg, 15000);

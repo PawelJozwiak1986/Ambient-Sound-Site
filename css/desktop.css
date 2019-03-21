@@ -65,7 +65,7 @@ body {
   position: absolute;
   height: 100px;
   width: 100%;
-  background-image: linear-gradient(to bottom transparent, black);
+  background-image: linear-gradient(to bottom, transparent, black);
   background: transparent;
   top: 618px; }
   .shadow:before {
@@ -74,6 +74,13 @@ body {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0;
-    background: linear-gradient() transparent 0%, rgba(0, 0, 0, 0.966824) 0%;
-    opacity: .8; }
+    left: 0; }
+
+.copyright {
+  height: 30px;
+  top: 500px;
+  width: 172%;
+  margin-top: 60px;
+  position: absolute;
+  opacity: 1.0;
+  color: white; }
