@@ -11,7 +11,6 @@ body{
 	  right: 0;
 	  bottom: 0;
 	  left: 0;
-	  // background-image: linear-gradient(to bottom,#f0f1f3,black);
 	  opacity: .5; 
   }
 }
@@ -33,6 +32,9 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
+}
+.player__block img:hover{
+  cursor:pointer;
 }
 .play-pause__btn{
   opacity: 1.0;

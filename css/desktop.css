@@ -31,6 +31,9 @@ body {
   justify-content: center;
   align-items: flex-start; }
 
+.player__block img:hover {
+  cursor: pointer; }
+
 .play-pause__btn {
   opacity: 1.0;
   margin-top: 30px;
