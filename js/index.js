@@ -1,7 +1,7 @@
 const playButton = document.querySelector('.play-pause__btn');
 const audio = new Audio('./assets/audio.mp3');
 const bgImage = document.querySelector('body');
-console.log(bgImage)
+
 /////////// Play/Pause button /////////////
 let playAudio = () => {
   if (audio.paused){
